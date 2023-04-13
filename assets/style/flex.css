@@ -57,27 +57,16 @@
     flex-grow: 1;
 }
 
-.agenda__item {
-    display: grid;
-    grid-template-areas:
-    "foto foto"
-    "info atracao"
-    "info atracao";
-    flex-grow: 1; 
-    max-width: 400px;
+/* RODAPÉ */
+
+.rodape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.agenda__item img {
-    grid-area: foto;
-}
-
-.agenda__informacoes {
-    grid-area: info;
-}
-
-.agenda__atracao {
-    grid-area: atracao;
-
+.rodape__logo {
+     align-self: end;
 }
 
 @media (min-width: 720px) {

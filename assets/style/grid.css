@@ -45,8 +45,6 @@
     grid-area: botao;
 }
 
-/*desafio Aula 4*/
-
 .agenda__item {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
